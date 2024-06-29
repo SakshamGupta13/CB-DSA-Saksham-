@@ -4,7 +4,7 @@
 using namespace std;
 
 // time : n^2.c + n.c ~ O(n^2)
-// space : O(n)
+// space : n+1 ~ O(n)
 
 int maximumSubarraySumOptimised(int arr[], int n) {
 
@@ -19,7 +19,7 @@ int maximumSubarraySumOptimised(int arr[], int n) {
 	// 	cout << csum[i] << " ";
 	// }
 
-	cout << endl;
+	// cout << endl;
 
 	int maxSoFar = INT_MIN;
 

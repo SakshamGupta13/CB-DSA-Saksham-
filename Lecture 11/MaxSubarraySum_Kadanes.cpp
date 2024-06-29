@@ -1,7 +1,6 @@
 // constraints : n <= 100
 
 #include<iostream>
-
 using namespace std;
 
 // time : O(n)

@@ -4,6 +4,7 @@
 using namespace std;
 
 // time : O(n^2)
+// space : 0(1)
 
 int targetSumPairs(int arr[], int n, int t) {
 
@@ -25,6 +26,9 @@ int targetSumPairs(int arr[], int n, int t) {
 	return cnt;
 
 }
+
+
+
 
 // best case ~ n/2 steps (in each iteration you find a valid pair)
 // worst case ~ n steps (in each iteration either pairSum > t or pairSum < t)
